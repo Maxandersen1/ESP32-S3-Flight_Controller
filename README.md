@@ -39,5 +39,10 @@ It uses the modern **Web Serial API** to connect directly to the flight controll
 *Hardware designed from scratch by Max. Firmware and 3D visualization developed using AI-assisted pair programming.*
 
 ## Hardware design process
+#Schematic
 
 ![KiCad Schematic](images/ESP32_Flight_Conroller_schematic.svg)
+
+#PCB-layout
+
+![KiCad layout](images/flight_controller_layout.png)
