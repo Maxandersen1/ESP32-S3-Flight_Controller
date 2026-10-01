@@ -37,3 +37,7 @@ It uses the modern **Web Serial API** to connect directly to the flight controll
 - [ ] Radio Receiver Integration (ExpressLRS/Crossfire)
 
 *Hardware designed from scratch by Max. Firmware and 3D visualization developed using AI-assisted pair programming.*
+
+## Hardware design process
+
+![KiCad Schematic](images/ESP32_Flight_Conroller_schematic.svg)
