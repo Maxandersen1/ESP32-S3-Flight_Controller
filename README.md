@@ -8,6 +8,9 @@ A custom-designed drone flight controller built from the ground up around the ES
 - **Barometer**: Bosch BMP388 via I2C
 - **PCB**: Custom designed in KiCad, hand-soldered SMD components.
 
+![Mitt kretskort](images/esp32-s3_flight_controller.jpg)
+
+
 ## Software / Firmware
 The firmware is written in C++ (Arduino framework) and features:
 - **Raw SPI Communication**: Bypasses bloated libraries to communicate directly with the BMI088 registers, resolving complex ESP32 HAL macro conflicts.
