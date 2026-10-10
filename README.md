@@ -8,6 +8,8 @@ A custom-designed drone flight controller built from the ground up around the ES
 - **Barometer**: Bosch BMP388 via I2C
 - **PCB**: Custom designed in KiCad, hand-soldered SMD components.
 
+## Assembled PCB
+
 ![Mitt kretskort](images/esp32-s3_flight_controller.jpg)
 
 
