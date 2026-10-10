@@ -41,10 +41,16 @@ It uses the modern **Web Serial API** to connect directly to the flight controll
 *Hardware designed from scratch by Max. Firmware and 3D visualization developed using AI-assisted pair programming.*
 
 ## Hardware design process
-###Schematic
 
+# Schematic
+The schematic was designed in KiCad and ordered as a 4 layer pcb from JLC-pcb.
 ![KiCad Schematic](images/ESP32_Flight_Conroller_schematic.svg)
 
-###PCB-layout
-
+# PCB-layout
+The layout was routed in KiCad with the following layers: 
+### PCB Layer Stackup (4 Layers)
+* **Layer 1 – Top Layer (F.Cu):** Primary signal layer used for component placement (ESP32-S3, IMU, Barometer) and high-speed SPI/I2C trace routing.
+* **Layer 2 – Inner Layer 1 (In1.Cu):** Dedicated internal Ground Plane (GND) providing low-impedance return paths and EMI shielding for sensitive sensors.
+* **Layer 3 – Inner Layer 2 (In2.Cu):** Dedicated Power Plane with split power zones distributing clean 3.3V and 5V power across the board.
+* **Layer 4 – Bottom Layer (B.Cu):** Secondary signal and ground layer used for remaining routing and bottom-side thermal dissipation.
 ![KiCad layout](images/flight_controller_layout.png)
